@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hannah Brookhart</title>
+        <meta name="description" content="The homepage of Hannah Brokhart.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+		<header>
+			<h1>Hannah Brookhart</h1>
+			<h2>Archives Aid, Gerald R. Ford Presidential Library</h2>
+		</header>
+		<div id="map-location" data-0="background-image:url(img/map.jpg);opacity:.5;" data-150="background-image:url(img/map_pin.jpg);opacity:1;" data-550="opacity:.5;">
+		</div>
+		<nav data-0="position:absolute;top:650px;" data-650="position:aboslute;top:650px;" data-1500="position:absolute;top:1500px;">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<article>
+			<section id="about">
+				<h3>About Hannah</h3>
+				<p>I'm finishing up my undergraduate degree at Michigan State University. Soon I hope to pack my bags and venture into Wolverine territory to pursue a Master of Information degree from the University of Michigan.</p> 
+			</section>
+			<section id="portfolio">
+				<h3>Portfolio</h3>
+				<ul class="gallery">
+					<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+					<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+					<li><img alt="portfolio" src="img/portfolio.jpg"></li>
+				</ul>	
+			</section>
+			<section id="resume">
+				<h3>Resume</h3>
+				<p>Click <a href="https://drive.google.com/file/d/1MVGkpDTTLryrYs6qC1jxsRea6zU7-_nkw4gfq0LFHYvTZ3LtBmvqjUx59r0h/edit?usp=sharing" target="_blank"> here</a> to see a copy of my resume.</p> 
+			<section>
+			<section id="contact">
+				<h3>Contact</h3>
+				<p><a href="mailto:brookhar@msu.edu">brookhar@msu.edu</a>
+				<br/><br/>
+				<ul class="socialm">
+					<li><a href="http://www.facebook.com/hannah.brookhart.5"><img alt="facebook" src="img/fb.jpg"></a></li>
+				<li><a href="https://twitter.com/Hanstrah"><img alt="twitter" src="img/tw.jpg"></a></li>
+				</ul>
+				</p> 
+			<section>
+		</article>
+		
+	
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<script src="js/vendor/skrollr.min.js"></script>
+		<script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+		<script type="text/javascript">
+	if ($(window).width() > 600) {	
+		var s = skrollr.init(); 
+		
+		skrollr.menu.init(s, {
+    //skrollr will smoothly animate to the new position using `animateTo`.
+    animate: true,
+
+    //The easing function to use.
+    easing: 'sqrt',
+
+    //How long the animation should take in ms.
+    duration: function(currentTop, targetTop) {
+        //By default, the duration is hardcoded at 500ms.
+        return 500;
+    },
+
+});
+}
+		</script>
+    </body>
+</html>
